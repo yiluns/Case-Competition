@@ -18,5 +18,6 @@ We ran a forward selection using a Logistic Regression to identify the most rele
 Since the original business question centered around predicting individuals that will have transportation issues, we decided that constructing a binary classification model would be the most appropriate way to address this question. Therefore, we tried a few binary classifical models and concluded that XGBoost was the most accurate one with the highest ROC AUC Score (0.74) compared to Logistic Regression (0.71), Random Forest (0.71).
 Our final model finished with a ROC AUC metric of 0.7508 and a model accuracy of 72%.  The weighted average scores for the precision, recall, and F-1 scores were 0.83, 0.72, and 0.75.
 
-### Conclusion 
+### Conclusion (Recommendations are not posted here)
 From these model insights, we discovered that disability, age, prescription claims, Stress, and motor vehicle percentage are all major factors for transportation issues and we can use these variables as foundations for forming user groups.  While we believe that our model performs well enough to give a general estimate, we recognize that our model has potential flaws, in particular the poor precision score for positive cases.  Our recommendation would be to use this model’s predictions as a guide and dedicate more time on its specific components to identify customized solutions for each member.  
+
